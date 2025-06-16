@@ -1,0 +1,102 @@
+.main h1 {
+    color: #2d465e;
+    font-size: 28px;
+    margin: 10px;
+    font-weight: 400;
+}
+.head {
+    margin-bottom: 20px;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social {
+    display: flex;
+    align-items: center;
+}
+.social-link i {
+    margin: 8px;
+    color: #2d465e;
+    font-size: 19px;
+}
+.search input {
+    border: 1px solid gainsboro;
+    border-radius: 4px;
+}
+form.search {
+    position: relative;
+}
+button.glass {
+    border: none;
+    outline: none;
+    background: none;
+    position: absolute;
+    right: 3px;
+    bottom: 3px;
+    color: gray;
+}
+.midel {
+    background: antiquewhite;
+}
+nav.navmenu ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+}
+.navmenu ul li a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 350;
+}
+li.pages i {
+    font-size: 13px;
+}
+.navmenu a {
+    padding: 18px 12px;
+    font-size: 15px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    color: #212529;
+    transition: 0.3s;
+}
+ul.down {
+    background: white;
+    position: absolute;
+    border-radius: 10px;
+    transition: 0.5s;
+    top: 132px;
+    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+    z-index: 999;
+    line-height: 3px;
+    right: 199px;
+    display: block !important;
+    visibility: hidden;
+    opacity: 0;
+    
+}
+ul.down li {
+    padding: 9px 0px;
+}
+li.Dropdown:hover ul.down {
+    opacity: 1;
+    visibility: visible;
+}
+.navmenu .Dropdown ul a:hover {
+    color: #f03c02;
+}
+ul.down a {
+    color: black;
+} 
+.midel-section {
+    padding-top: 10px;
+}
+.midel2 img {
+    border-radius: 10px;
+}
