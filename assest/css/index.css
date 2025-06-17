@@ -12,6 +12,15 @@
     justify-content: space-between;
     align-items: center;
 }
+.bar i {
+    margin: 10px;
+    font-size: 20px;
+}
+i#close {
+    position: absolute;
+    right: 75px;
+    /* display: none; */
+}
 .social {
     display: flex;
     align-items: center;
