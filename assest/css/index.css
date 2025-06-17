@@ -34,6 +34,9 @@ i#close {
 .search input {
     padding: 0.4rem;
     width: 205px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid gray;
 }
 form.search {
     position: relative;
