@@ -219,6 +219,7 @@ nav.navmenu ul {
     margin: 0 auto;
     overflow-y: auto;
     height: 300px;
+    z-index: 999;
 }  
 ul.down {
     display: none !important;
