@@ -30,6 +30,10 @@ i#close {
     margin: 8px;
     color: #2d465e;
     font-size: 19px;
+    transition: 0.3s;
+}
+.social-link a i:hover {
+    color: #f5c264;
 }
 .search input {
     padding: 0.4rem;
@@ -112,43 +116,145 @@ ul.down a {
 }
 .midel2 img {
     border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+.midel2 {
+   
+    position: relative;
+}
+.blog-content {
+    position: absolute;
+    left: 0;
+    bottom: -62px;
+    right: 0;
+    margin: 71px;
+}
+.blog-meat {
+    position: absolute;
+    bottom: 138px;
+    left: -20px;
 }
 
+span.date {
+    color: white;
+    font-size: 17px;
+    margin: 10px;
+}
+span.technology {
+    color: white;
+    font-size: 17px;
+}
+h2.blog-title {
+    color: white;
+    font-size: 30px;
+    margin: 56px -12px;
+}
+.midel-img {
+    padding: 5%;
+}
+.mid img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}   
+.mid {
+    position: relative;
+}
+.blog-contenting {
+    position: absolute;
+    top: 39px;
+    margin: 9px 23px;
+    color: white;
+    font-size: 14px;
+}
+h2.blog {
+    font-size: 30px;
+    margin: 30px 0px;
+}
+.post h2 {
+    font-size: 22px;
+    font-weight: 400;
+    color: gray;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+.post h2::after {
+    content: "";
+    width: 10%;
+    height: 1px;
+    background: red;
+    margin: 4px 10px;
+    display: inline-block;
+}
+.check h2 {
+    font-size: 31px;
+    text-transform: uppercase;
+    color: #2d465e;
+    font-family: system-ui;
+}
+@media screen and (max-width:767px) {
 
-
-
-@media (min-width: 768px) {
-  .navmenu {
-    transform: translateX(0) !important;
-    position: static;
-    height: auto;
-    display: flex;
-    background-color: transparent;
-  }
-
-  .navmenu ul {
-    display: flex;
-    gap: 20px;
-  }
-
-  .bar-icons {
+    .bar i{
+        display: block;
+    }
+    form.search {
+    position: relative;
     display: none;
-  }
+}
+.midel {
+    background: antiquewhite;
+    display: none;
+}
+.show {
+    display: block;
+}
+nav.navmenu ul {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 95%;
+    background-color: #f5c264;
+    margin: 0 auto;
+    overflow-y: auto;
+    height: 300px;
+}  
+ul.down {
+    display: none !important;
+}
+ul.ponga:hover ul.down {
+    position: static;
+    display: block !important;
+}
+.midel-section {
+    padding-top: 17px;
+}
+.midel2 img {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    margin: 10px 0px;
 }
 
-/* Search input responsiveness */
-.search {
-  display: flex;
-  align-items: center;
+span.technology {
+    color: white;
+    font-size: 13px;
+}
+h2.blog-title {
+    color: white;
+    font-size: 16px;
+    margin: 21px -56px;
+}
+span.date {
+    color: white;
+    font-size: 14px;
+    margin: 0;
+}
+.blog-meat {
+    position: absolute;
+    bottom: 68px;
+    left: -43px;
+}
 }
 
-.search input {
-  padding: 0.4rem;
-  width: 120px;
-}
-
-@media (max-width: 768px) {
-  .search input {
-    width: 80px;
-  }
-}
