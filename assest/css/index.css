@@ -266,6 +266,30 @@ span.comment h1 {
     font-weight: 500;
 }
 
+.Category {
+    padding: 36px;
+}
+.category-post h2 {
+    font-size: 22px;
+    font-weight: 400;
+    color: gray;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+.category-post h2::after {
+    content: "";
+    width: 10%;
+    height: 1px;
+    background: red;
+    margin: 4px 10px;
+    display: inline-block;
+}
+.checkeed h2 {
+    font-size: 31px;
+    text-transform: uppercase;
+    color: #2d465e;
+    font-family: system-ui;
+}
 
     
 @media screen and (max-width:767px) {
