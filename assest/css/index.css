@@ -195,8 +195,76 @@ h2.blog {
 }
 
 
- 
-
+ .feat-img {
+    margin: 12px;
+}
+.feaat img {
+    width: 100%;
+    border-radius: 20px;
+}
+.feaat {
+    position: relative;
+}
+.feat-con::before {
+    position: absolute;
+    content: "";
+    inset: 0;
+    background: #00000061;
+    border-radius: 20px;
+}
+span.user {
+    position: absolute;
+    top: 179px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 9px;
+    left: 26px;
+}
+.feat-con h1 {
+    font-size: 15px;
+    margin: 7px;
+    font-weight: 500;
+}
+span.dating {
+   
+    top: 179px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 9px;
+    left: 26px;
+}
+span.comment {
+    position: absolute;
+    bottom: 201px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 9px;
+    left: 26px;
+}
+span.comment h1 {
+    font-size: 14px;
+}
+.ante {
+    position: relative;
+}
+.ante h2 {
+    left: 20px;
+    bottom: 113px;
+    position: absolute;
+    color: white;
+    font-size: 24px;
+}
+.ante p {
+    position: absolute;
+    bottom: 22px;
+    left: 20px;
+    color: white;
+    line-height: 19px;
+    font-weight: 500;
+}
 
 
     
@@ -263,6 +331,27 @@ span.date {
     position: absolute;
     bottom: 68px;
     left: -43px;
+}
+.feaat {
+    position: relative;
+    margin: 10px;
+}
+span.user {
+    position: absolute;
+    top: 122px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 9px;
+    left: 26px;
+}
+.ante p {
+    position: absolute;
+    bottom: 4px;
+    left: 20px;
+    color: white;
+    line-height: 19px;
+    font-weight: 500;
 }
 }
 
