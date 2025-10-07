@@ -197,6 +197,7 @@ h2.blog {
 
  .feat-img {
     margin: 12px;
+    position: relative;
 }
 .feaat img {
     width: 100%;
@@ -379,8 +380,112 @@ span.read-time::after {
     font-size: 13px;
 }
 
+.call-auto {
+    background: #ff3f0073;
+    padding: 3%;
+}
+span.dont {
+    background: #ff7f505e;
+    padding: 3px 10px;
+    border-radius: 10px;
+    color: #f75815;
+}
+.call-meb h2 {
+    font-size: 43px;
+    font-weight: 700;
+    font-family: system-ui;
+    color: #2d465e;
+    margin-bottom: 20px;
+}
+.call-meb p {
+    font-size: 20px;
+    font-weight: 400;
+}
+.features {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+.features-item {
+    background: whitesmoke;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+.features-item:hover {
+    transform: translateX(10px);
+}
+.features-item i {
+    background: orangered;
+    padding: 5px;
+    border-radius: 15px;
+    color: white;
+}
+.but button {
+    background: orangered;
+    padding: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    margin: 10px;
+      transition: 0.5s;
+}
+.but button:hover {
+    transform: translateX(8px);
+}
+.but button.learn {
+    background: white;
+    color: #eb3514;
+    transition: 0.5s;
+}
+.but button.learn:hover {
+    background: orangered;
+    color: white;
+}
+.feateed-img img {
+    width: 100%;
+    border-radius: 20px;
+}
+.feateed-img {
+    position: relative;
+}
+.floating {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    position: absolute;
+    right: -65px;
+    bottom: 110px;
+    background: white;
+    padding: 9px;
+    border-radius: 20px;
+    gap: 1rem;
+}
+.floating-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 41%;
+    height: 50%;
+    background: #ff4500b8;
+    font-size: 38px;
+    border-radius: 10px;
+}
+.card-contant {
+    display: flex;
+    flex-direction: column;
+}
 
-
+span.start-number {
+    font-size: 1.25rem;
+    color: #f75815;
+    font-weight: 700;
+}
 @media screen and (max-width:767px) {
 
     .bar i{
@@ -466,5 +571,67 @@ span.user {
     line-height: 19px;
     font-weight: 500;
 }
+.list-img img {
+    width: 100px;
+    height: 147px;
+    object-fit: cover;
+}
+h3.gme-title {
+    font-size: 12px;
+    margin: 0 0 8px auto;
+    line-height: 1.5;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: 400;
+}
+.post-date {
+    font-size: 11px;
+}
+.features {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 35px;
+}
+.features-item {
+    background: whitesmoke;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.5s;
+    margin-bottom: 15px;
+}
+.floating {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    position: absolute;
+    right: -21px;
+    bottom: 44px;
+    background: white;
+    padding: 7px;
+    border-radius: 20px;
+    gap: 1rem;
+}
+.floating-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 41%;
+    height: 50%;
+    background: #ff4500b8;
+    font-size: 38px;
+    border-radius: 10px;
+}
+span.start {
+    font-size: 12px;
+}
+span.start-number {
+    font-size: 1.25rem;
+    color: #f75815;
+    font-weight: 700;
+}
+
 }
 
